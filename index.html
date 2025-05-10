@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>AISCREAM: Website!</title>
+    <script src="gachaPool.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="title-aiscream">AISCREAM GAMBLING!</div>
+    <div class="coin-container">AISCOIN: <span class="accumulated-coins">0</span></div>
+
+    <div class="image-holder" type="holder">
+      <img src="Assets/Ai_scream_img.png" class="image" onclick="incrementCoin()" />
+    </div>
+
+    <div class="play-button" type="holder">
+      <button class="gamble-button" onclick="drawGacha()">
+        <a class="text-inside">Gamble <span class="gamble-cost">10</span></a>
+      </button>
+    </div>
+
+    <div class="audio-holder" type="holder">
+      <audio controls autoplay muted>
+        <source src="Assets/music-assets/YUKICHAN!!!.mp3" type="audio/mpeg" />
+      </audio>
+    </div>
+
+    <div class="result-holder">
+      <div class="result-text" id="result">
+        Text place holder test test meow meow meow
+      </div>
+    </div>
+
+
+  </body>
+</html>

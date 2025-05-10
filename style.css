@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+
+* {
+        box-sizing: border-box;
+        /*border: solid lime;*/
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #ffe5ec;
+    display: block;
+    justify-items: center;
+}
+
+/*title & text container*/
+
+.title-aiscream {
+    margin-top: 2.5rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+/*image container*/
+
+.image-holder {
+    margin-top: 2.5rem;
+    width: fit-content;
+    box-shadow: -7px 10px 24px -3px rgba(66, 68, 90, 1);
+    border-radius: 1rem;
+}
+
+.image {
+    width: 250px;
+    height: 250px;
+    min-height: 100px;
+    min-width: 100px;
+    max-height: 250px;
+    max-width: 250px;
+    border-radius: 1rem;
+}
+
+/*button container*/
+
+.play-button {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    width: fit-content;
+    height: fit-content;
+}
+
+
+.gamble-button {
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    width: 100px;
+    height: 35px;
+    border-radius: 2cm;
+    background-color: #e6ddf0;
+    border-width: 1.5px;
+    box-shadow: -3px 15px 24px -3px rgba(66, 68, 90, 1);
+}
+
+button:hover{
+    background-color: chartreuse;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+/*Audio container*/
+
+.audio-holder {
+    padding: 0;
+    margin-top: -25em;
+    margin-right: 60em;
+}
+
+audio {
+    box-shadow: -27px 20px 24px 0px rgba(66, 68, 90, 1);
+    border-radius: 27px;
+}
+
+/*result container*/
+
+.result-holder {
+    display: block;
+    justify-items: center;
+    width: 500px;
+    height: 380px;
+    background-color: snow;
+    margin-top: 20em;
+}
+
+.result-text {
+    text-decoration: none;
+    color: black;
+    padding-top: 10px;
+    width: fit-content;
+    height: fit-content;
+    max-width: 900px;
+    border: solid lime;
+}
